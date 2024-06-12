@@ -4,13 +4,13 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Header from "component/Header";
 
 const ProductListPage = lazy(() =>
-    import("route/ProductListPage" /* webpackChunkName: "ProductListPage" */)
+    import("route/ProductListPage")
 );
 const ProductPage = lazy(() =>
-    import("route/ProductPage" /* webpackChunkName: "ProductPage" */)
+    import("route/ProductPage")
 );
 const CartPage = lazy(() =>
-    import("route/CartPage" /* webpackChunkName: "CartPage" */)
+    import("route/CartPage")
 );
 
 class App extends PureComponent {
